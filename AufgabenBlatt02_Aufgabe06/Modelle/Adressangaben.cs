@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -55,9 +56,10 @@ namespace AufgabenBlatt02_Aufgabe06.Modelle
         {
             return _land; 
         }
-
-
-
+        public override string ToString()
+        {
+            return $"Vorname: {_vorname,8}; Nachname: {_nachname}; Straße: {_straße}, PLZ: {_plzOrt}";
+        }
 
 
     }

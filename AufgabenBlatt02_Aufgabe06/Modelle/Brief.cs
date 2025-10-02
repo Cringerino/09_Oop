@@ -45,5 +45,10 @@ namespace AufgabenBlatt02_Aufgabe06.Modelle
                 return "Einschreiben";
             }
         }
+
+        public override string ToString()
+        {
+            return $"Id: {_id,5}; Sender: {_absender.GetVorname()} {_absender.GetNachname()}; Empfänger {_empfänger.GetVorname()} {_empfänger.GetNachname()}; Brieftyp: {GetBriefTyp()}";
+        }
     }
 }
