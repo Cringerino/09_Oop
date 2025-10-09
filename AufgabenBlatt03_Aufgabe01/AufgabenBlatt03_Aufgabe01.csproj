@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{53223CE3-20DC-445A-90FE-8879386492E3}</ProjectGuid>
+    <ProjectGuid>{7928CF00-F323-4B20-BDF5-B523945437D5}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>AufgabenBlatt02_Aufgabe06</RootNamespace>
-    <AssemblyName>AufgabenBlatt02_Aufgabe06</AssemblyName>
+    <RootNamespace>AufgabenBlatt03_Aufgabe01</RootNamespace>
+    <AssemblyName>AufgabenBlatt03_Aufgabe01</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,12 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Modelle\Adressangaben.cs" />
-    <Compile Include="Modelle\Brief.cs" />
-    <Compile Include="Modelle\Paket.cs" />
-    <Compile Include="Modelle\Postsendung.cs" />
-    <Compile Include="Modelle\Station.cs" />
-    <Compile Include="Modelle\VerfolgbaresPaket.cs" />
+    <Compile Include="Modelle\INachrichtenEmpfänger.cs" />
+    <Compile Include="Modelle\INachrichtenQuelle.cs" />
+    <Compile Include="Modelle\Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
