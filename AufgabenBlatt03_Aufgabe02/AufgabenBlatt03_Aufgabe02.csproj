@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7928CF00-F323-4B20-BDF5-B523945437D5}</ProjectGuid>
+    <ProjectGuid>{7CE9AE56-B805-4E92-8AC7-27F4182612F7}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>AufgabenBlatt03_Aufgabe01</RootNamespace>
-    <AssemblyName>AufgabenBlatt03_Aufgabe01</AssemblyName>
+    <RootNamespace>AufgabenBlatt03_Aufgabe02</RootNamespace>
+    <AssemblyName>AufgabenBlatt03_Aufgabe02</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,13 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Modelle\INachrichtenEmpfänger.cs" />
-    <Compile Include="Modelle\INachrichtenQuelle.cs" />
-    <Compile Include="Modelle\Person.cs" />
-    <Compile Include="Modelle\Radio.cs" />
-    <Compile Include="Modelle\TV.cs" />
-    <Compile Include="Modelle\Vermitler.cs" />
-    <Compile Include="Modelle\Zeitung.cs" />
+    <Compile Include="modelle\Celsius.cs" />
+    <Compile Include="modelle\Fahrenheit.cs" />
+    <Compile Include="modelle\Kelvin.cs" />
+    <Compile Include="modelle\Temperatur.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

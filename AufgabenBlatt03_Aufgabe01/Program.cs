@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AufgabenBlatt03_Aufgabe01.Modelle;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,11 @@ namespace AufgabenBlatt03_Aufgabe01
     {
         static void Main(string[] args)
         {
+            Person Dieter = new Person();
+            TV sony = new TV();
+            Radio senheiser = new Radio();
+            Zeitung WAZ = new Zeitung();
+
         }
     }
 }

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7928CF00-F323-4B20-BDF5-B523945437D5}</ProjectGuid>
+    <ProjectGuid>{0E1AB193-9836-448F-AD6A-AA183BAB7BAC}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>AufgabenBlatt03_Aufgabe01</RootNamespace>
-    <AssemblyName>AufgabenBlatt03_Aufgabe01</AssemblyName>
+    <RootNamespace>AufgabenBlatt03_Aufgabe03</RootNamespace>
+    <AssemblyName>AufgabenBlatt03_Aufgabe03</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,18 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Modelle\INachrichtenEmpfänger.cs" />
-    <Compile Include="Modelle\INachrichtenQuelle.cs" />
-    <Compile Include="Modelle\Person.cs" />
-    <Compile Include="Modelle\Radio.cs" />
-    <Compile Include="Modelle\TV.cs" />
-    <Compile Include="Modelle\Vermitler.cs" />
-    <Compile Include="Modelle\Zeitung.cs" />
+    <Compile Include="Modelle\BeobachtenBüffel.cs" />
+    <Compile Include="Modelle\BeobachtenStraßen.cs" />
+    <Compile Include="Modelle\IBeobachten.cs" />
+    <Compile Include="Modelle\BeobachtenWander.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
