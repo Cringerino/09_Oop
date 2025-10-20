@@ -22,8 +22,6 @@ namespace AufgabenBlatt03_Aufgabe05
             luigi.GetFeather();
             luigi.GetFeather();
             Console.WriteLine(luigi.ToString());
-
-
         }
     }
 }
